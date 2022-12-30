@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(78, 80, 79);
+  background-image: url(image/eberhard-grossgasteiger-S-2Ukb_VqpA-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
+  background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color:rgb(15, 15, 15);
+    text-shadow: 1px 1px 1px rgb(17, 32, 32);
+}
+
+label{
+    display:block;
+    text-align: start;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    font-size: 1rem;
+    color:rgb(7, 7, 7);
+    
+}
+
+button{
+    display: block;
+    margin: auto;
+    background: transparent;
+    cursor: pointer;
+    border-width: medium;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    
+}
+
+button:hover{
+    background-color: rgb(112, 173, 152);
+    box-shadow: 2px 2px 2px 1px rgb(58, 63, 63);
+}
+
+p{
+    text-align: center;
+    font-size: 2rem;
+    color:rgb(10, 10, 10);
+    text-shadow: 2px 2px 2px rgb(17, 32, 32);
+}
+
+
+input{
+    border: 1px solid burlywood;
+    box-shadow: 2px 2px 2px 1px darkcyan;
+    margin-bottom: 1rem;
+    width: 100%;
+    display: block;
+}
+
+input:hover{
+    cursor: pointer;
+}
+
+
+.container {
+    width: 300px;
+    margin: auto;
+  }
+  
+  
