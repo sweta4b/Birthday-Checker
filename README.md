@@ -10,7 +10,7 @@ Click here https://birthdaychecker.netlify.app/ to check your birthday.
 ## Features
 Enter your Date Of Birth.<br/>
 Enter your Lucky Number.<br/>
-Click on Check button.<br/>
+Click on "Check-Number" button.<br/>
 
 ![image](https://user-images.githubusercontent.com/110299602/211191677-8525c9a1-10c8-4d17-b8ec-5ff04db5c7c3.png)
 
