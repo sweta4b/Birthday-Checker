@@ -1,37 +1,38 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
-    margin:0;
-    padding:0;
-    /* background-color: rgb(78, 80, 79); */
-  background-image: url(image/eberhard-grossgasteiger-S-2Ukb_VqpA-unsplash.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  box-sizing: border-box;
-  background-size: cover;
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(image/eberhard-grossgasteiger-S-2Ukb_VqpA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    background-size: cover;
 }
 
-h1{
+h1 {
     text-align: center;
-    color:darkgray;
+    color: darkgray;
     text-shadow: 1px 1px 1px rgb(17, 32, 32);
+    margin-top: 50px;
 }
 
-label{
-    display:block;
+label {
+    display: block;
     text-align: start;
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
-    font-size: 1rem;
-    color:darkgray;
+    font-size: 1.5rem;
+    color: darkgray;
     font-style: bold;
     font-weight: 700;
-    
+    margin-top: 50px;
+
 }
 
-button{
+button {
     display: block;
     margin: auto;
     background: transparent;
@@ -39,48 +40,39 @@ button{
     border-width: medium;
     padding: 0.5rem;
     border-radius: 0.3rem;
-    
+    margin-top: 50px;
+
 }
 
-button:hover{
+button:hover {
     background-color: rgb(112, 173, 152);
     box-shadow: 2px 2px 2px 1px rgb(58, 63, 63);
 }
 
-p{
+p {
     text-align: center;
     font-size: 2rem;
-    color:darkgray;
+    color: darkgray;
     text-shadow: 2px 2px 2px rgb(17, 32, 32);
 }
 
 
-input{
+input {
     border: 1px solid burlywood;
     box-shadow: 2px 2px 2px 1px darkcyan;
     margin-bottom: 1rem;
     width: 100%;
     display: block;
-    color:darkgray
-
+    color: darkgray
 }
 
-input:hover{
+input:hover {
     cursor: pointer;
 }
 
 
 .container {
-   max-width:300px;
-    margin:auto;
-  }
-  
-  .container-box{
-    border: 1px solid burlywood;
-    box-shadow: 2px 2px 2px 1px darkcyan, -2px -2px 2px 1px darkcyan;
-    width: 50%;
+    max-width: 300px;
     margin: auto;
-    margin-top:20px;
-    
-  }
-  
+
+}
